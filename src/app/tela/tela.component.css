@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.header h1{
+    padding: 1%;
+}
+
+.content{
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content h1{
+    padding: 1vh;
+}
+
+.content h3{
+    padding: 1.5vh;
+}
+
+.each{
+    width: 100%;
+    border: 1px solid black;
+    margin: 2vh;
+    background-color: cadetblue;
+}
+
+footer{
+    background-color: blueviolet;
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+}
