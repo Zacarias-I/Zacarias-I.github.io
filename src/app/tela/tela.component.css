@@ -37,9 +37,10 @@ h1{
 
 .each{
     width: 100%;
-    border: 1px solid black;
+    border: 3px solid black;
     margin: 2vh;
     background-color: cadetblue;
+    border-radius: 10px;
 }
 
 footer{
@@ -48,4 +49,27 @@ footer{
     padding: 1%;
     display: flex;
     justify-content: center;
+}
+
+.bota{
+    padding: 0;
+    background-color: blueviolet;
+    border: 0;
+    margin-left: 9vh;
+    margin-right: 9vh;
+}
+
+.caixa{
+    border: 2px black solid;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+.nome{
+    display: flex;
+    justify-content: center;
+}
+
+.tex{
+    text-align: justify;
 }
